@@ -1,0 +1,39 @@
+// const handleLogin = async () => {
+  //   try {
+  //     const response = await fetch('https://api.paypro.com.pk/v2/ppro/auth', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify({
+  //         username: Username,
+  //         password: Password,
+  //         clientid: 'RWvF15xMg4Deb1u', // Your client ID
+  //         clientsecret: 'KclpBg2VGqM3iXF', // Your client secret
+  //       }),
+  //     });
+
+  //     if (response.ok) {
+  //       const responseBody = (await response.text()).trim();
+  //       console.log('Server Response:', responseBody);
+
+  //       if (responseBody === 'Authorized') {
+  //         try {
+  //           await AsyncStorage.setItem('Token', responseBody);
+  //           console.log('Token saved:', responseBody);
+  //           navigation.navigate('Order'); // Replace 'Order' with your actual route name
+  //         } catch (e) {
+  //           console.log('Error storing token:', e);
+  //         }
+  //       } else {
+  //         console.log('Unauthorized login');
+  //       }
+  //     } else {
+  //       console.log('Login failed:', response.status, response.statusText);
+  //       const errorResponse = await response.text();
+  //       console.log('Error message:', errorResponse);
+  //     }
+  //   } catch (error) {
+  //     console.log('Network error:', error);
+  //   }
+  // };

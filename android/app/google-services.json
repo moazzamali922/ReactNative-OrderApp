@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "541227694546",
+    "project_id": "authenticationorder",
+    "storage_bucket": "authenticationorder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541227694546:android:a345e8fbe23fa78dce700b",
+        "android_client_info": {
+          "package_name": "com.singleorderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541227694546-210g1do0k4qeqf40fcd952bkmdpsv9lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCamvTetWnlZv9o_otD3p0rZDXLV-ZG5I0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541227694546-210g1do0k4qeqf40fcd952bkmdpsv9lc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
